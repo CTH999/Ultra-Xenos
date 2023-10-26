@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Ultimate-er Power</name>
+  <author>CTH2004</author>
+  <packageId>cth.utraXeno</packageId>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>Feel like my pawns from Ultimate POWER were too weak? Well, this mod "fixes" that!</description>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+    <li>
+      <packageId>cth.core</packageId>
+      <displayName>CTH2004 Core</displayName>
+    </li>
+
+    <li>
+      <packageId>cth.ultimatepower</packageId>
+      <displayName>Ultimate POWER</displayName>
+    </li>
+
+    <li>
+      <packageId>petre27.godlikemetabolismgene</packageId>
+      <displayName>Godlike Metabolism Gene</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2901849036</steamWorkshopUrl>
+    </li>cth.moresuperxenos
+
+    <li>
+      <packageId>cth.moresuperxenos</packageId>
+      <displayName>More Super Xenos</displayName>
+    </li>
+
+    <li>
+      <packageId>thamuzz.livingbuildingframework</packageId>
+      <displayName>Living Building Framework</displayName>
+    </li>
+
+  </modDependencies>
+  <loadAfter>
+    <li>cth.ultimatepower</li>
+    <li>cth.moresuperxenos</li>
+    <li>cth.core</li>
+    <li>petre27.godlikemetabolismgene</li>
+cth.moresuperxenos
+  </loadAfter>
+  <loadBefore>
+    <li>co.uk.epicguru.whatsthatmod</li>
+    <li>edb.preparecarefully</li>
+  </loadBefore>
+</ModMetaData>
